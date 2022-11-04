@@ -13,6 +13,7 @@ namespace TestNinja.Mocking
 
     public class BookingRepository : IBookingRepository
     {
+        //TODO: Finish watching the solution on Section 7 video 3 Exctracting IBooking Repo (rewind it so you can understand better)
         public IQueryable<Booking> GetActiveBookings()
         {
             var unitOfWork = new UnitOfWork();
